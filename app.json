@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/timetabs/timetabs",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"1296db",
+    "selectedColor": "#8a8a8a",
+    "list": [
+      {
+        "pagePath": "pages/timetabs/timetabs",
+        "text": "设置",
+        "iconPath": "images/timetabs.png",
+        "selectedIconPath": "images/timetabs(1).png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "首页",
+        "iconPath": "images/settings.png",
+        "selectedIconPath": "images/settings(1).png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "帮助",
+        "iconPath": "images/users.png",
+        "selectedIconPath": "images/users(1).png"
+      }
+    ]
+  }
+}
